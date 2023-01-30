@@ -85,6 +85,7 @@ function newCountdown(){
     inputCountdown.hidden = false;
     countdownTitle = "";
     countdownDate = "";
+    window.location.reload();
 }
 
 function dataBaseStorage(){
