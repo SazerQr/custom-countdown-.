@@ -83,6 +83,7 @@ function Reset(){
 
 function newCountdown(){
     inputCountdown.hidden = false;
+    complete.hidden = true;
     countdownTitle = "";
     countdownDate = "";
     window.location.reload();
